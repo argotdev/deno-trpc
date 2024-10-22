@@ -1,0 +1,36 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/path@^1.0.6": "1.0.6",
+    "npm:@trpc/client@^11.0.0-rc.593": "11.0.0-rc.593_@trpc+server@11.0.0-rc.593",
+    "npm:@trpc/server@^11.0.0-rc.593": "11.0.0-rc.593",
+    "npm:zod@^3.23.8": "3.23.8"
+  },
+  "jsr": {
+    "@std/path@1.0.6": {
+      "integrity": "ab2c55f902b380cf28e0eec501b4906e4c1960d13f00e11cfbcd21de15f18fed"
+    }
+  },
+  "npm": {
+    "@trpc/client@11.0.0-rc.593_@trpc+server@11.0.0-rc.593": {
+      "integrity": "sha512-uQORhYMwUeY4TluQmhl6N183BiLZz5mgIzBynkSWKxtQ7TIHt+3iRzTSiJH1jTl3SEOtCacRHS6b1yvFP2RJXw==",
+      "dependencies": [
+        "@trpc/server"
+      ]
+    },
+    "@trpc/server@11.0.0-rc.593": {
+      "integrity": "sha512-ihZNf7nM3OriZkkuOUFjuB51FJdtCXZUUj8FIXkq0VXF9VmMOD7j4QTl5YojIzMTJBMGUK9VADcO0shgELEmyw=="
+    },
+    "zod@3.23.8": {
+      "integrity": "sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/path@^1.0.6",
+      "npm:@trpc/client@^11.0.0-rc.593",
+      "npm:@trpc/server@^11.0.0-rc.593",
+      "npm:zod@^3.23.8"
+    ]
+  }
+}
